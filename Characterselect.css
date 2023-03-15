@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url(Fonts/Poppins-Bold.ttf);
+}
+
+body {
+  background-image: url(Jpg/bg_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.content {
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 25%;
+}
+
+p {
+  font-family: "Poppins-Bold";
+  color: white;
+  font-size: 16px;
+}
+
+#UserId {
+  float: left;
+}
+
+#LogOut {
+  padding-right: 5px;
+  float: right;
+}

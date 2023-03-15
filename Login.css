@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Starjedi";
+  src: url(Fonts/Starjedi.ttf);
+}
+
+@font-face {
+  font-family: "DistantGalaxy";
+  src: url(Fonts/SfDistantGalaxyAltoutline-e2Bp.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url(Fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(Fonts/Poppins-Regular.ttf);
+}
+
+body {
+  background-image: url(Jpg/bg_1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.login {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.elsocim {
+  font-family: "Starjedi";
+  color: white;
+  font-size: 30px;
+  padding-bottom: 35px;
+}
+
+.masodikcim {
+  font-family: "DistantGalaxy";
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  padding-bottom: 80px;
+}
+
+.usrpsswrd {
+  font-family: "Poppins-Bold";
+  color: white;
+  font-size: 14px;
+  padding-bottom: 2px;
+}
+
+.field {
+  font-family: "Poppins-Regular";
+  font-size: 16px;
+  padding: 16px 115px 16px 115px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+#button {
+  font-family: "Poppins-Bold";
+  background-color: #f7b500;
+  border: 0px;
+  font-size: 16px;
+  padding: 10px 90px 10px 90px;
+  border-radius: 10px;
+  cursor: pointer;
+}
